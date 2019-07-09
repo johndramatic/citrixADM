@@ -13,7 +13,7 @@ import-stylebooks:
 parameters: 
   - 
     name: svc-service-type
-    label: "Application Server Protocol"
+    label: "Application Server Protocola"
     description: "Protocol of the application server."
     type: string
     default: HTTP    
