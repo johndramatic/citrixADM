@@ -13,7 +13,7 @@ import-stylebooks:
 parameters: 
   - 
     name: lb-appname
-    label: "Load Balanced Application Namess"
+    label: "Load Balanced Application Namesss"
     description: "Name of the Load Balanced application"
     type: string
     key: true
@@ -91,7 +91,7 @@ parameters:
     description: "Advanced load balancer settings"
     type: object
     gui: 
-      collapse_pane: true    
+      collapse_pane: false    
     parameters-default-sources:
       - cmtypes::vserver-advanced-params
     parameters:
